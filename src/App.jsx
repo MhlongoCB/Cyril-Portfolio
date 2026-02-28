@@ -68,7 +68,7 @@ function App() {
 
           <div className="project-card">
             <img
-              src="./public/Assembly-Homepage.png"
+              src="../public/Assembly-Homepage.png"
               className="project-image"
             />
             <h3>Assembly-Endgame</h3>
