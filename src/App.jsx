@@ -2,7 +2,6 @@ import React from "react";
 import { HiOutlineMail } from "react-icons/hi";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import "./App.css";
-import spiral from "./public/spiral-Homepage.png";
 
 function App() {
   return (
@@ -125,7 +124,7 @@ function App() {
           </div>
 
           <div className="project-card">
-            <img src={spiral} className="project-image" />
+            <img src="/public/spiral-Homepage.png" className="project-image" />
             <h3>Spiral Sounds</h3>
             <p>
               A responsive ecommerce site. Allows people to shop for vinyl
