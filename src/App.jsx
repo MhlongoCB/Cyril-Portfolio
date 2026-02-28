@@ -95,7 +95,7 @@ function App() {
 
           <div className="project-card">
             <img
-              src="../public/From-the-other-side-Homepage.png"
+              src="From-the-other-side-Homepage.png"
               className="project-image"
             />
             <h3>Horror Stories Blog</h3>
@@ -124,7 +124,7 @@ function App() {
           </div>
 
           <div className="project-card">
-            <img src="/public/spiral-Homepage.png" className="project-image" />
+            <img src="spiral-Homepage.png" className="project-image" />
             <h3>Spiral Sounds</h3>
             <p>
               A responsive ecommerce site. Allows people to shop for vinyl
