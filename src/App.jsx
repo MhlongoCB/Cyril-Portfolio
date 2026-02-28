@@ -2,6 +2,7 @@ import React from "react";
 import { HiOutlineMail } from "react-icons/hi";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import "./App.css";
+import spiral from "./public/spiral-Homepage.png";
 
 function App() {
   return (
@@ -67,10 +68,7 @@ function App() {
           <h2>Projects</h2>
 
           <div className="project-card">
-            <img
-              src="../public/Assembly-Homepage.png"
-              className="project-image"
-            />
+            <img src="/Assembly-Homepage.png" className="project-image" />
             <h3>Assembly-Endgame</h3>
             <p>
               A fun interactive game. The premise is to save as many programming
@@ -98,7 +96,7 @@ function App() {
 
           <div className="project-card">
             <img
-              src="public/From-the-other-side-Homepage.png"
+              src="../public/From-the-other-side-Homepage.png"
               className="project-image"
             />
             <h3>Horror Stories Blog</h3>
@@ -127,7 +125,7 @@ function App() {
           </div>
 
           <div className="project-card">
-            <img src="public/spiral-Homepage.png" className="project-image" />
+            <img src={spiral} className="project-image" />
             <h3>Spiral Sounds</h3>
             <p>
               A responsive ecommerce site. Allows people to shop for vinyl
