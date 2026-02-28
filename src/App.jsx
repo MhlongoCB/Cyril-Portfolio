@@ -67,7 +67,10 @@ function App() {
           <h2>Projects</h2>
 
           <div className="project-card">
-            <img src="public/Assembly-Homepage.png" className="project-image" />
+            <img
+              src="./public/Assembly-Homepage.png"
+              className="project-image"
+            />
             <h3>Assembly-Endgame</h3>
             <p>
               A fun interactive game. The premise is to save as many programming
