@@ -1,4 +1,6 @@
 import React from "react";
+import { HiOutlineMail } from "react-icons/hi";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 import "./App.css";
 
 function App() {
@@ -32,7 +34,7 @@ function App() {
             Hi, I'm <br></br>Mhlongo Cyril Blessing
           </h1>
           <p className="subtitle">
-            Full-Stack MERN Developer | Building scalable web applications
+            Full-Stack PERN Developer | Building scalable web applications
           </p>
           <div className="hero-buttons">
             <a href="#projects" className="btn primary">
@@ -65,10 +67,13 @@ function App() {
           <h2>Projects</h2>
 
           <div className="project-card">
+            <img src="public/Assembly-Homepage.png" className="project-image" />
             <h3>Assembly-Endgame</h3>
             <p>
-              A full-stack task management application with authentication and
-              CRUD functionality.
+              A fun interactive game. The premise is to save as many programming
+              languages a possible from extinction. If you fail to do so, then
+              you will be forced to use assembly language to write all of your
+              software going forward.
             </p>
             <div className="project-links">
               <a
@@ -89,10 +94,16 @@ function App() {
           </div>
 
           <div className="project-card">
+            <img
+              src="public/From-the-other-side-Homepage.png"
+              className="project-image"
+            />
             <h3>Horror Stories Blog</h3>
             <p>
-              Admin dashboard for managing products, users, and orders with a
-              clean interface.
+              A responsive web application. A place where you can read other
+              peoples spooky/horror stories, and you can also upload your own. A
+              number of technologies were used to build this app. Places an
+              emphasis on accessibility.
             </p>
             <div className="project-links">
               <a
@@ -113,16 +124,26 @@ function App() {
           </div>
 
           <div className="project-card">
-            <h3>E-Commerce Dashboard</h3>
+            <img src="public/spiral-Homepage.png" className="project-image" />
+            <h3>Spiral Sounds</h3>
             <p>
-              Admin dashboard for managing products, users, and orders with a
-              clean interface.
+              A responsive ecommerce site. Allows people to shop for vinyl
+              records of their liking. Also emphases accessibility. Uses many
+              different technologies, allowing features like authentication.
             </p>
             <div className="project-links">
-              <a href="#" className="btn small primary">
+              <a
+                target="_blank"
+                href="https://spiral-sounds-ntmb.onrender.com/"
+                className="btn small primary"
+              >
                 Live Demo
               </a>
-              <a href="#" className="btn small secondary">
+              <a
+                target="_blank"
+                href="https://github.com/MhlongoCB/Spiral-Sounds"
+                className="btn small secondary"
+              >
                 GitHub
               </a>
             </div>
@@ -139,18 +160,40 @@ function App() {
             <li>JavaScript</li>
             <li>Git & GitHub</li>
             <li>REST APIs</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Typescript</li>
+            <li>Python</li>
+            <li>Java</li>
           </ul>
         </section>
 
         <section className="section" id="contact">
           <h2>Contact</h2>
-          <p>Email: your.email@example.com</p>
-          <p>LinkedIn: linkedin.com/in/yourprofile</p>
-          <p>GitHub: github.com/yourusername</p>
+          <div className="icon-container">
+            <div className="icon-inner-container">
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/cyril-mhlongo-6940873a5/"
+              >
+                <FaLinkedin className="social-icon" />
+              </a>
+              <a target="_blank" href="https://github.com/MhlongoCB">
+                <FaGithub className="social-icon" />
+              </a>
+            </div>
+            <div className="icon-inner-container">
+              <HiOutlineMail className="social-icon" />
+              <p>mhlongo02cb@gmail.com</p>
+            </div>
+          </div>
         </section>
 
         <footer className="footer">
-          <p>© {new Date().getFullYear()} Karl Kilcon. All rights reserved.</p>
+          <p>
+            © {new Date().getFullYear()} Mhlongo Cyril Blessing. All rights
+            reserved.
+          </p>
         </footer>
       </div>
     </div>
